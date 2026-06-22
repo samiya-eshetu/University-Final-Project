@@ -1,0 +1,61 @@
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: -50%; /* Initially off-screen to the left */
+    width: 50%;
+    height: 100%;
+    background-color: #f8f9fa;
+    transition: left 0.3s ease;
+    z-index: 1050; /* To make sure the side menu stays above other content */
+}
+
+.side-menu.show {
+    left: 0; /* When 'show' class is added, slide in from the left */
+}
+
+.side-menu .close-btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 20px;
+    color: #000;
+}
+
+.side-menu .menu-item {
+    padding: 20px;
+    text-decoration: none;
+    color: #363636;
+    font-size: 1.25rem;
+    display: block;
+}
+
+.side-menu .menu-item + .menu-item {
+    border-top: 1px solid #949494; /* Full-width black line */
+    width: 100%; /* Ensures the border spans the entire width */
+}
+
+/* For the hamburger menu icon */
+.hamburger-icon {
+    font-size: 2rem;
+    cursor: pointer;}
+
+    .pagination .page-link {
+        border: none;
+        color: black;
+        font-weight: bold;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pagination .page-item.active .page-link {
+        background-color: black;
+        color: white;
+    }
+    
+    .pagination .page-item.disabled .page-link {
+        color: #ccc;
+    }
