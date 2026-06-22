@@ -1,0 +1,7 @@
+[17-Jun-2025 09:10:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in C:\xampp\htdocs\Final_Project\admin side\create_package.php:54
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Final_Project\admin side\create_package.php on line 54
+[25-Jun-2025 11:06:27 Europe/Berlin] PHP Warning:  Undefined variable $dbname in C:\xampp\htdocs\Final_Project\admin side\handle_cancellations.php on line 20
+[25-Jun-2025 11:06:27 Europe/Berlin] PHP Warning:  Undefined variable $username in C:\xampp\htdocs\Final_Project\admin side\handle_cancellations.php on line 20
+[25-Jun-2025 11:06:27 Europe/Berlin] PHP Warning:  Undefined variable $password in C:\xampp\htdocs\Final_Project\admin side\handle_cancellations.php on line 20
